@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: 90vh;
   z-index: 1;
 }
 #hero .hero-container {
