@@ -23,7 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -89,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align-last: center;
   font-family: "Poppins", sans-serif;
 }
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -142,7 +148,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
 }
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -151,16 +158,23 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
 }
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -207,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   /* min-height: 100vh; */
   content: "";
-  background: rgba(0 ,0,0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -240,11 +254,27 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+.AWS,
+.Azure {
+  width: 100px;
+  position: relative;
+  margin-right: 20px;
+  z-index: 3;
+}
+.border-rounded {
+  border-radius: 10px;
+}
+.center-align {
+  text-align: center;
+}
+.cloud-certified {
+  text-align: center;
+  display: block;
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
     background-size: cover;
-    
   }
   #hero:before {
     height: 100vh;
@@ -413,20 +443,23 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title ,.portfolio .resume-title{
+.resume .resume-title,
+.portfolio .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
 }
-.resume .resume-item,.portfolio .resume-item {
+.resume .resume-item,
+.portfolio .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
-.resume .resume-item h4,.portfolio .resume-item h4 {
+.resume .resume-item h4,
+.portfolio .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -435,7 +468,8 @@ section {
   color: #050d18;
   margin-bottom: 10px;
 }
-.resume .resume-item h5,.portfolio  .resume-item h5{
+.resume .resume-item h5,
+.portfolio .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
@@ -443,16 +477,20 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.resume .resume-item ul,.portfolio  .resume-item ul{
+.resume .resume-item ul,
+.portfolio .resume-item ul {
   padding-left: 20px;
 }
-.resume .resume-item ul li,.portfolio  .resume-item ul li{
+.resume .resume-item ul li,
+.portfolio .resume-item ul li {
   padding-bottom: 10px;
 }
-.resume .resume-item:last-child ,.portfolio .resume-item:last-child {
+.resume .resume-item:last-child,
+.portfolio .resume-item:last-child {
   padding-bottom: 0;
 }
-.resume .resume-item::before,.portfolio .resume-item::before  {
+.resume .resume-item::before,
+.portfolio .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -491,7 +529,8 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -656,7 +695,8 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
@@ -680,7 +720,8 @@ section {
   color: #999;
   margin: 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
@@ -793,7 +834,9 @@ section {
   background: #149ddd;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -856,7 +899,8 @@ section {
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -867,7 +911,7 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -875,7 +919,7 @@ section {
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
 @-webkit-keyframes animate-loading {
@@ -958,13 +1002,13 @@ section {
   font-size: 13px;
   color: #eaebf0;
 }
-@media (max-width: 1199px) and  (min-width:576px) {
+@media (max-width: 1199px) and (min-width: 576px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
   }
-  #hero{
+  #hero {
     background-size: cover;
   }
 }
